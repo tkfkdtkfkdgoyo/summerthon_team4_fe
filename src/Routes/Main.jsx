@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import Page1 from "./Page1";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import { isDarkState } from "../atom";
-import axios from "axios";
 
 const Wrapper = styled(motion.div)`
   height: 100vh;
